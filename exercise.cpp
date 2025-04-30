@@ -17,10 +17,13 @@ int main()
         break;                                 // This is to STOP the code
 
     case 0:
-    {
+
         cout << n << "This is a pair number\n";
         break;
-    }
+
+    default: // this is a case when the data is not equal to the previous cases
+        cout << "Wrong data" << endl;
+        break;
     }
     return 0;
 }
